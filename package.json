@@ -1,5 +1,5 @@
 {
-  "name": "temp_suncart",
+  "name": "suncart",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@better-auth/mongo-adapter": "^1.6.16",
+    "better-auth": "^1.6.16",
+    "daisyui": "^5.5.23",
+    "framer-motion": "^12.40.0",
+    "lottie-react": "^2.4.1",
+    "mongodb": "^7.3.0",
     "next": "16.2.7",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-hot-toast": "^2.6.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

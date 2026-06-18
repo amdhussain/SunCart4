@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Aviator Sunglasses",
+    "brand": "SunRay",
+    "price": 89.99,
+    "rating": 4.8,
+    "stock": 45,
+    "description": "UV400 polarized aviator sunglasses with gold-tone metal frame and gradient lenses. Lightweight and scratch-resistant.",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Floral Summer Dress",
+    "brand": "IslandWear",
+    "price": 59.99,
+    "rating": 4.7,
+    "stock": 28,
+    "description": "Lightweight floral-print dress with adjustable spaghetti straps and a flowy A-line silhouette. Perfect for beach days.",
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "category": "Clothing"
+  },
+  {
+    "id": 3,
+    "name": "Aloe Vera Sunscreen SPF 50",
+    "brand": "Coastal",
+    "price": 24.99,
+    "rating": 4.6,
+    "stock": 120,
+    "description": "Reef-safe, water-resistant sunscreen enriched with aloe vera and vitamin E. Broad-spectrum UVA/UVB protection.",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400",
+    "category": "Skincare"
+  },
+  {
+    "id": 4,
+    "name": "Wide-Brim Straw Beach Hat",
+    "brand": "SunRay",
+    "price": 34.99,
+    "rating": 4.4,
+    "stock": 60,
+    "description": "Handwoven straw hat with a wide brim for maximum sun protection. UPF 50+ rated and packable for travel.",
+    "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=400",
+    "category": "Hats"
+  },
+  {
+    "id": 5,
+    "name": "Sporty Slide Sandals",
+    "brand": "Coastal",
+    "price": 44.99,
+    "rating": 4.3,
+    "stock": 75,
+    "description": "Cushioned slide sandals with a textured footbed and durable rubber outsole. Ideal for the pool or boardwalk.",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Linen Relaxed Button-Down",
+    "brand": "SunCart",
+    "price": 54.99,
+    "rating": 4.5,
+    "stock": 35,
+    "description": "Breathable linen-blend shirt with a relaxed fit, chest pocket, and mother-of-pearl buttons. Stays cool in humid heat.",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400",
+    "category": "Clothing"
+  },
+  {
+    "id": 7,
+    "name": "Retro Round Sunglasses",
+    "brand": "SunRay",
+    "price": 69.99,
+    "rating": 4.5,
+    "stock": 50,
+    "description": "Vintage-inspired round frames with blue-light blocking tinted lenses. Includes a microfiber cleaning pouch.",
+    "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 8,
+    "name": "Denim Cutoff Shorts",
+    "brand": "SunCart",
+    "price": 39.99,
+    "rating": 4.2,
+    "stock": 90,
+    "description": "Classic denim cutoff shorts with a frayed hem and five-pocket styling. Stretch denim for all-day comfort.",
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400",
+    "category": "Clothing"
+  },
+  {
+    "id": 9,
+    "name": "Canvas Beach Tote",
+    "brand": "IslandWear",
+    "price": 29.99,
+    "rating": 4.6,
+    "stock": 110,
+    "description": "Extra-large cotton canvas tote with inner zip pocket and reinforced handles. Holds towels, sunscreen, and a book.",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Cooling Aloe Face Mist",
+    "brand": "Coastal",
+    "price": 14.99,
+    "rating": 4.8,
+    "stock": 200,
+    "description": "Refreshing face mist with aloe vera, cucumber extract, and hyaluronic acid. Instant cooling hydration for sun-exposed skin.",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400",
+    "category": "Skincare"
+  }
+]
