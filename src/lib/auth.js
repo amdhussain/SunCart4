@@ -1,12 +1,3 @@
-// import { betterAuth } from "better-auth";
-
-// export const auth = betterAuth({
-//   emailAndPassword: {
-//     enabled: true,
-//   },
-// });
-
-
 
 import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
