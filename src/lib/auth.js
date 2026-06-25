@@ -27,7 +27,7 @@ const client = new MongoClient(process.env.MONGODB_URI);
 const db = client.db("SunCart");
 
 export const auth = betterAuth({
-  // 🔥 IMPORTANT: fix 403 Invalid origin issue
+   
   trustedOrigins: [
     "http://localhost:3000",
     "https://sun-cart4.vercel.app"
@@ -42,4 +42,18 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
   },
+
+  socialProviders: {
+        google: { 
+            clientId: process.env.GOOGLE_CLIENT_ID,
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+        }, 
+    },
 });
+
+
+
+
+
+
+ 

@@ -1,21 +1,39 @@
+ 
 // "use client";
 
 // import { useEffect, useState } from "react";
 // import { useParams, useRouter } from "next/navigation";
-// import { useSession } from "@/lib/auth-client";
+// import { authClient } from "@/lib/auth-client";  
 // import { motion } from "framer-motion";
 // import toast from "react-hot-toast";
+
+// /**
+//  * @typedef {Object} Product
+//  * @property {number} id
+//  * @property {string} name
+//  * @property {string} brand
+//  * @property {number} price
+//  * @property {number} rating
+//  * @property {number} stock
+//  * @property {string} description
+//  * @property {string} image
+//  * @property {string} category
+//  */
 
 // export default function ProductDetailPage() {
 //   const { id } = useParams();
 //   const router = useRouter();
-//   const { data: session, isPending } = useSession();
+  
+//   const { data: session, isPending } = authClient.useSession();
+  
+//   /** @type {[Product | null, (value: Product | null) => void]} */
 //   const [product, setProduct] = useState(null);
 
 //   useEffect(() => {
+//     if (typeof id !== "string") return;
 //     fetch("/data.json")
 //       .then((r) => r.json())
-//       .then((all) => setProduct(all.find((p) => p.id === Number(id))));
+//       .then((/** @type {Product[]} */ all) => setProduct(all.find((p) => p.id === Number(id)) ?? null));
 //   }, [id]);
 
 //   useEffect(() => {
@@ -112,11 +130,12 @@
 
 
 
+
 "use client";
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { authClient } from "@/lib/auth-client"; // এখানে পরিবর্তন করা হয়েছে
+import { authClient } from "@/lib/auth-client";  
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 
@@ -124,7 +143,6 @@ export default function ProductDetailPage() {
   const { id } = useParams();
   const router = useRouter();
   
-  // এখানে authClient থেকে হুকটি সঠিকভাবে কল করা হয়েছে
   const { data: session, isPending } = authClient.useSession();
   
   const [product, setProduct] = useState(null);
@@ -132,7 +150,7 @@ export default function ProductDetailPage() {
   useEffect(() => {
     fetch("/data.json")
       .then((r) => r.json())
-      .then((all) => setProduct(all.find((p) => p.id === Number(id))));
+      .then((all) => setProduct(all.find((p) => p.id === Number(id)) || null));
   }, [id]);
 
   useEffect(() => {

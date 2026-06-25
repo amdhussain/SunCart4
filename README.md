@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+SunCart – Summer Essentials Store
+Project Description
 
-## Getting Started
+SunCart is a summer-themed eCommerce website where users can explore and buy different summer products such as sunglasses, skincare items, summer outfits, and beach accessories. Users can view product information, create an account, log in, and manage their profile.
 
-First, run the development server:
+Live Website
 
-```bash
+Live Link: https://sun-cart4.vercel.app
+
+GitHub Repository
+
+GitHub Link: https://github.com/amdhussain/SunCart4
+
+
+Features
+User registration and login system using BetterAuth.
+Google authentication support.
+Protected product details page.
+User profile page with personal information.
+Update profile feature (name and photo).
+Popular products section on the home page.
+Summer care tips section.
+Top brands section.
+
+Fully responsive for mobile, tablet, and desktop devices.
+Modern and clean summer-themed user interface.
+Technologies Used
+
+Next.js
+Tailwind CSS
+DaisyUI
+BetterAuth
+MongoDB
+React Icons
+React Hot Toast
+Lottie React
+Installation
+Clone the repository.
+
+Install dependencies using:
+
+npm install
+Create a .env.local file and add the required environment variables.
+
+Run the project:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 
+NPM Packages Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+better-auth
+mongodb
+react-icons
+react-hot-toast
+lottie-react
+daisyui
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Author
+Md. Hussain Ahmed

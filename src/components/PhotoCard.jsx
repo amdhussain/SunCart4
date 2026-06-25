@@ -41,7 +41,7 @@ export default function PhotoCard({ photo, index = 0 }) {
         </div>
         <div className="mt-auto pt-4">
           <Link
-            href={`/all-photos/${photo.id}`}
+            href={`/product/${photo.id}`}
             className="btn btn-primary btn-sm w-full"
           >
             View Details

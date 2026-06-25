@@ -56,7 +56,7 @@ export default function ProductCard({ product, index = 0, href }) {
 
         <div className="mt-auto pt-4">
           <Link
-            href={href || `/products/${product.id}`}
+            href={href || `/product/${product.id}`}
             className="btn btn-primary btn-sm w-full hover:bg-orange-600 transition-all"
           >
             <svg
